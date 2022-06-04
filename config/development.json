@@ -1,6 +1,6 @@
 {
     "nombre" : "API Rest Express - Usuarios y cursos",
     "configDB":{
-        "HOST": "mongodb://localhost:27017/prueba"
+        "HOST": "mongodb+srv://root:andres123@basenodeapi.uzicd.mongodb.net/?retryWrites=true&w=majority"
     }
 }

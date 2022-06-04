@@ -17,6 +17,7 @@ app.use('/api/auth',auth)
 //.CONEXION  BASE DE DATOS.......................
 
 //Conectarnos a la BD
+
 mongoose.connect(config.get('configDB.HOST'), {useNewUrlParser: true, useUnifiedTopology: true})
     .then(() => console.log('Conectado a MongoDB...'))
     .catch(err => console.log('No se pudo conectar con MongoDB..', err));
